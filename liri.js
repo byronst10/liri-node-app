@@ -3,7 +3,7 @@ require("dotenv").config();
 var axios = require("axios");
 var bandsintown = require("bandsintown")("liri");
 var moment = require("moment");
-moment().format("DD/MM/YYYY");
+var fs = require("fs");
 
 var keys = require("./keys.js");
 
